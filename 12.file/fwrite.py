@@ -1,0 +1,6 @@
+outfile=open("nubers.txt","w")
+
+for i in range(10):
+    outfile.write(str(i)+" ")
+
+outfile.close()
