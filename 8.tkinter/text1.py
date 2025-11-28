@@ -1,9 +1,14 @@
 from tkinter import *
+def display_text():
+    text=text_widget.get("1.0",END)
+    print("입력된 정보:")
+    print(text)
 
 root=Tk()
 
-canvas=Canvas(root,width=400,height=200)
-canvas.pack()
-canvas.create_text(200,100,text="Hello World!",fill="blue",font=("Courier",30))
+text_widget=Text(root, width=60, height=10)
+text_widget.pack()
 
+button=Button(root, text="출력", command=display_text)
+button.pack()
 root.mainloop()
