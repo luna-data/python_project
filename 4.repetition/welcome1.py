@@ -1,1 +1,6 @@
-print("hello")
+print("환영합니다.")
+print("환영합니다.")
+print("환영합니다.")
+print("환영합니다.")
+print("환영합니다.")
+
