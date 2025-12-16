@@ -1,4 +1,4 @@
-infile=open("chapter_12/11.13/proverbs.txt",'r')
+infile=open("12.file/proverbs.txt",'r')
 outfile=open('output.txt','w')
 
 i=1

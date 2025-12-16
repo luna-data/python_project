@@ -1,4 +1,4 @@
-outfile=open("chapter_12/11.13/phones.txt","w",encoding="utf-8")
+outfile=open("12.file/phones.txt","w",encoding="utf-8")
 
 outfile.write("홍길동 010-1234-5678")
 outfile.write("김철수 010-1234-5679")

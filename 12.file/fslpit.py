@@ -1,4 +1,4 @@
-infile=open("chapter_12/11.13/proverbs.txt","r")
+infile=open("12.file/proverbs.txt","r")
 
 for line in infile:
     line=line.rstrip()

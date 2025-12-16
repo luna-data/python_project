@@ -1,4 +1,4 @@
-with open('chapter_12/11.13/proverbs.txt','rb')as file:
+with open('12.file/proverbs.txt','rb')as file:
     file.seek(10,0)
 
     position=file.tell()
